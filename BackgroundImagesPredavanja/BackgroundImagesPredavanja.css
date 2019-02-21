@@ -1,0 +1,26 @@
+body{color: whitesmoke;
+ 
+background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+background-attachment: fixed;
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+
+ }
+ body::-webkit-scrollbar { 
+    display: none; 
+}
+header{
+
+    margin: 0 auto;
+    width: 70%;
+}
+header img{
+   
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+}
