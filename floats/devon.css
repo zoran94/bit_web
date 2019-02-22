@@ -1,0 +1,56 @@
+.maindiv{
+    margin: 0 auto;
+    width: 960px;
+    box-sizing: border-box;
+
+}
+.mainlist{
+    display:inline-block;
+    background-color: #992020;
+    color:white;
+    width: 900px;
+    list-style-type: none;
+    vertical-align: middle;
+    text-align: right;
+    padding: 10px 20px 10px 20px;
+    
+    
+}
+.mainlist > li {
+    
+    display: inline-block;
+    
+
+}
+.image1{
+    width: 98%;
+    
+}.secondlist {
+    float: right;
+    background: #FFBD33;
+    padding-left: 0px;
+    width: 320px;
+    height: 200px;
+    list-style-type: none;
+   
+    
+}
+p{
+    width:300px;
+    display: inline-block;
+    
+}
+
+
+.lastdiv {
+    background-color: #1319A2;
+    padding-left: 100px;
+    color: white;
+    margin-left: 300px; 
+    margin-right: 300px;
+}
+.picture {
+    float:left;
+    display: inline-block;
+    margin: 5px;
+}

@@ -1,0 +1,49 @@
+#firstlist {
+
+    list-style-type: circle;
+}
+#secondlist{
+
+    list-style-type: square;
+}
+#thirdlist {
+
+    list-style-type: upper-alpha;
+}
+#fourlist {
+    list-style-type: upper-roman;
+}
+#fivelist {
+    width: 200px;
+    list-style-image: url('lista.png')
+}
+
+.maintable {
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 900px;
+    text-align: center;
+}
+.header {
+    background: red;
+    color:rgb(255, 255, 255);
+    padding-left: 20px; 
+}
+.maintable img{
+    height: 100px;
+}
+
+.maintable tr:hover {
+    background-color: yellow;
+}
+
+.header th {
+    height: 50px; 
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+
+
