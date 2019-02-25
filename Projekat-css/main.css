@@ -1,0 +1,182 @@
+
+
+body {
+    margin: 0;
+
+}
+.father {
+    margin: 0 auto;
+    padding: 0px;
+    
+
+}
+
+
+header .firstlist {
+    text-align: center;
+    list-style-type: none;
+    background: #55ade8;
+    padding: 20px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+     
+}
+li {
+    padding: 5px;
+    
+}
+header h1 {
+    text-align: center;
+    
+}
+span {
+    color: #e09e0f;
+    border: 4px solid grey;
+    border-right: none;
+}
+
+header .firstlist a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.mainimage {
+    width: 100%;
+    position: relative;
+}
+
+.mainimage img {
+
+    width: 100%;
+    
+}
+
+.mainimage .button {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width:100%;
+    color: white;
+}
+
+.button a {
+    color: white;
+    background: #6a91d1;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+.mainspace{
+    padding: 20px;
+}
+
+.textcontent{
+    margin-bottom: 100px;
+}
+
+.textcontent h1 {
+    text-align: center;
+}
+.border1{
+    width:30%;;
+    border: 1px solid black;
+    margin: 0 auto;
+    
+}
+
+.squares {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: -10px;
+    transform: rotate(45deg);
+    background: white;
+    
+}
+
+.secondlist li  {
+    list-style-image: url("images/arrow_bullet.png");
+    color: #575a5b;
+    padding-top: 15px; 
+}
+.textcontent  h2 {
+    color: #6a91d1;
+}
+.textcontent p {
+    font-size: 20px;
+}
+
+.thirdlist li {
+    list-style-image: url("images/arrow_bullet.png");
+    color: #575a5b;
+    padding-top: 15px; 
+}
+
+#building {
+    width: 100%;
+}
+
+.content2 h1 {
+    text-align: center;
+}
+
+
+
+.testomania  {
+    padding-left: 0; 
+    list-style-type: none;
+   
+    
+}
+
+.testomania li {
+    background: #55ade8;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.testomania img{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+
+.clearfix img{
+    float:left;
+    margin-top: 10px;
+}
+
+.clearfix .box{
+    float:left;
+    margin-left: 10px;
+}
+
+.clearfix::before, .clearfix::after{
+    content: "";
+    display:table;
+}
+.clearfix::after{
+    clear:both;
+
+}
+.imagetext h2 {
+    margin-bottom: 0;
+}
+.content2 .testomania p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+   
+}
+
+.box h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
