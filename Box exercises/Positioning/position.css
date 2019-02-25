@@ -1,0 +1,65 @@
+.first {
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+.second {
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+.third {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+.four {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: 10px;
+}
+.five {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+.six {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+
+.seven {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position:absolute;
+    right: 150px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.eight {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    right: 280px;
+    top: 650px;
+}
+.nine {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    right: 450px;
+    top: 800px;
+}
