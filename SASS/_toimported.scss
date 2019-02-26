@@ -1,0 +1,15 @@
+
+
+$font-stack: Arial;
+$newColor: black;
+$newBackgroundColor: yellow;
+$newParagraph: 3px 30px green;
+
+$shadow: 2px 10px 5px green;
+
+@mixin box-shadow(){
+    box-shadow: $shadow;
+}
+
+
+
