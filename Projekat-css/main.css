@@ -98,7 +98,7 @@ header .firstlist a {
     height: 20px;
     border: 2px solid black;
     margin: 0 auto;
-    margin-top: -10px;
+    margin-top: -13px;
     transform: rotate(45deg);
     background: white;
     
@@ -240,6 +240,7 @@ header .firstlist a {
 }
 .pink ul {
     margin-left: 0;
+    padding-left: 0;
 }
 .pink div li{
     display: inline;
@@ -262,14 +263,17 @@ iframe {
 
 .content4 {
     margin-top:20px;
-    
+    padding-right: 30px;
+    padding-left:30px
 }
 
 
-.content4  h1 {
+  .hab {
     text-align:center;
+    margin-bottom: 25px;
     
 }
+
 
 
 form {
@@ -281,7 +285,7 @@ form {
 input{
     display: block;
     margin: 5px auto 15px;
-    width: 90%;
+    width: 100%;
     padding-bottom: 23px;
     padding-left: 7px;
     border: 1px solid black;
@@ -294,9 +298,8 @@ input::placeholder{
     padding-top:5px;
 }
 
-form textarea {
-    margin: 10px auto 15px 28px;
-    width: 90%;
+form textarea { 
+    width: 100%;
     padding-top: 10px;
     padding-left: 7px;
     border: 1px solid black;
@@ -308,7 +311,7 @@ input[type="submit"] {
      padding-bottom: 5px;
      padding-top: 5px;
      width: 120px;
-     margin-left: 5%;
+     margin-left: 0%;
      color: white;
      background: orange;
      border:none;
@@ -324,7 +327,7 @@ input[type="submit"] {
     text-align: center;
     color: white;
     padding-top:30px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
 }
 
@@ -337,5 +340,118 @@ input[type="submit"] {
     list-style-type: none;
     text-decoration: none;
     color: white;
+    
+}
+
+
+
+
+@media(min-width: 750px){
+
+    
+    header {
+        width: 100%;
+        position: absolute;
+        z-index: 9;
+    }
+    header h1 {
+        float: left;
+    }
+    
+    header .firstlist {
+            float: right;
+            background: none;
+            margin-top: 0;
+        }
+        
+        header li {
+            display: inline-block;
+            margin-right: 15px;
+    }
+
+
+
+    .textcontent {
+        margin-bottom: 550px;
+    }
+
+
+        .prvi {
+            float: left;
+            width: 30%;
+        }
+
+
+       
+    #building {
+
+        height : 240px;
+        width: 200px;
+        float: left;
+        
+    }
+    .drugi{
+        float: left;
+        width: 30%;
+    }
+
+    
+    .testomania {
+        margin: 10px auto;
+        
+    }
+
+    .testomania li {
+        width: 25%;
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: 20px;
+       
+
+    }
+    .some li {
+        padding: 5px;
+    }
+
+.some {
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 2%;
+   
+}
+.some h2 {
+    margin: 0;
+}
+#building {
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    margin-top: 25px
+}
+
+ .blocks {
+     width: 25%;
+     height: 200px;
+     
+ }
+
+   
+    input {
+        width: 28%;
+        display: inline;
+        margin-left:35px;
+        
+    }
+
+   form textarea {
+        width:95%;
+        margin-left: 29px;
+    }
+    input[type="submit"]{
+        margin-left: 2%;
+    }
+
+
     
 }
