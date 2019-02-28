@@ -1,0 +1,70 @@
+.container .row {
+    color:white;
+    margin: 10px;
+    
+    
+}
+
+.red {
+    background: red;
+   
+}
+.blue{
+    background: blue;
+}
+.orange {
+    background: orange;
+    
+}
+.orange .child{
+    background: lightblue;
+}
+.green { 
+    background: green;
+}
+.black {
+    background: black;
+}
+.pink {
+    background: pink;
+}
+
+@media all and (min-width: 768px){
+
+    .black {
+        visibility: hidden;
+    }
+    .pink {
+        visibility: hidden;
+    }
+}
+.first {
+    background: red;
+}
+.second {
+    background: hotpink;
+}
+.prvi{
+    background: saddlebrown;
+}
+.drugi {
+    background: seagreen;
+}
+.treci {
+    background: purple;
+}
+.cetvrti {
+    background: blue;
+}
+@media all and(min-width: 992px){
+    
+    .green {
+        visibility: hidden;
+    }
+    .black {
+        visibility: hidden;
+    }
+    .pink {
+        visibility: hidden;
+    }
+}
