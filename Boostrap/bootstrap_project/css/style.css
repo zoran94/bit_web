@@ -1,0 +1,118 @@
+input#name {
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+
+input#email {
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+
+input#phone {
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+
+textarea {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 6px 12px; }
+
+button.btn.btn-primary.ml-3 {
+  background: #00bc9c;
+  border-color: #00bc9c; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../css/fonts/Lato-Regular.ttf"); }
+@font-face {
+  font-family: 'LatoB';
+  src: url("../css/fonts/Lato-Bold.ttf"); }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Lato'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'LatoB'; }
+
+.cf::before, .cf::after {
+  content: '';
+  display: table; }
+
+.cf::after {
+  clear: both; }
+
+header {
+  font-family: 'LatoB';
+  background-color: #293e4f; }
+  header h1 {
+    font-family: 'LatoB';
+    float: left;
+    font-size: 25px;
+    color: white; }
+
+.banner {
+  background: #00bc9c;
+  color: white; }
+
+button.navbar-toggler {
+  background: #00bc9c; }
+
+nav button h4 {
+  display: inline; }
+
+main h1 {
+  text-align: center; }
+
+main div img {
+  width: 100%; }
+
+.about {
+  background: #00bc9c;
+  color: white; }
+
+.about .btn {
+  border: 1px solid white;
+  color: white; }
+
+i.fas.fa-info {
+  color: #00bc9c;
+  background: white;
+  border-radius: 50%; }
+
+footer {
+  background: #293e4f;
+  color: white; }
+
+footer .thanks {
+  display: block;
+  color: #777367; }
+
+i {
+  color: white;
+  width: 16px;
+  height: 16px; }
+
+.btn.btn-default.btn-circle {
+  border: 2px solid white;
+  border-radius: 50%; }
+
+.line {
+  display: inline-block;
+  width: 90px;
+  border: 2px solid white;
+  margin-bottom: 3px; }
+
+.lineblack {
+  display: inline-block;
+  width: 90px;
+  border: 2px solid black;
+  margin-bottom: 3px; }
+
+/*# sourceMappingURL=style.css.map */

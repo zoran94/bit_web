@@ -1,0 +1,17 @@
+@import 'variables';
+
+header {
+    font-family: 'LatoB';
+    background-color: $headerColor;
+    h1 {
+        font-family: 'LatoB';
+        float: left;
+        font-size: 25px;
+        color: white;
+    }
+}
+
+.banner {
+    background: #00bc9c;
+    color: white;
+}

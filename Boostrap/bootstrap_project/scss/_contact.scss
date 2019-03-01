@@ -1,0 +1,32 @@
+@import 'variables';
+
+input#name {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input#email {
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+input#phone {
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+textarea {
+width: 100%;
+border-top: none;
+border-left: none;
+border-right: none;
+padding: 6px 12px;
+}
+
+button.btn.btn-primary.ml-3 {
+    background: $mainColor;
+    border-color: $mainColor;
+}

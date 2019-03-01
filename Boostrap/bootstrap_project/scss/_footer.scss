@@ -1,0 +1,22 @@
+@import 'variables';
+
+footer {
+    background: $headerColor;
+    color: white;
+}
+
+footer .thanks {
+    display: block;
+    color: #777367;
+}
+
+i {
+    color: white;
+    width: 16px;
+    height: 16px;
+}
+
+.btn.btn-default.btn-circle {
+    border: 2px solid white;
+    border-radius: 50%;
+}

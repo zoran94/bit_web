@@ -1,0 +1,17 @@
+@mixin line {
+    .line {
+        display: inline-block;
+        width: 90px;
+        border: 2px solid white;
+        margin-bottom: 3px;
+    }
+}
+
+@mixin blackline {
+    .lineblack {
+        display: inline-block;
+        width: 90px;
+        border: 2px solid black;
+        margin-bottom: 3px;
+    }
+}

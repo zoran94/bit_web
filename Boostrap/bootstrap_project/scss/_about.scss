@@ -1,0 +1,18 @@
+@import 'variables';
+
+.about {
+    background: $mainColor;
+    color: white;
+}
+
+.about .btn {
+    border: 1px solid white;
+    color: white;
+}
+
+i.fas.fa-info {
+    color: $mainColor;
+    background: white;
+    border-radius: 50%;
+    
+}

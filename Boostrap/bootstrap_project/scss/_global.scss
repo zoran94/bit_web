@@ -1,0 +1,35 @@
+@import 'variables';
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../css/fonts/Lato-Regular.ttf'),
+}
+
+@font-face {
+    font-family: 'LatoB';
+    src: url('../css/fonts/Lato-Bold.ttf')
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato';
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'LatoB';
+}
+
+.cf::before, .cf::after {
+    content: '';
+    display: table;
+}
+
+.cf::after {
+    clear: both;
+}

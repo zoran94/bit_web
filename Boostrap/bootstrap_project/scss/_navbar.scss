@@ -1,0 +1,9 @@
+@import 'variables';
+
+button.navbar-toggler {
+    background: $mainColor;
+}
+
+nav button h4 {
+    display: inline;
+}
