@@ -54,3 +54,43 @@ p{
     display: inline-block;
     margin: 5px;
 }
+
+
+ .blue {
+    background: lightblue;
+   
+    text-align: center;
+}
+.col-4 {
+    background: #FFBD33;
+}
+
+.black {
+    background: black;
+    color: whitesmoke;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: green;
+}
+.red {
+    background: red;
+}
+.pink {
+    background: pink;
+}
+.col-sm {
+    height: 100px;
+   
+}
+
+ .light {
+    background: yellow;
+    margin-top: 20px;
+    
+}
+.dark {
+    background: darkorchid;
+}
