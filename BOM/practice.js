@@ -76,9 +76,9 @@ toSetItem();
 function toGetItem() {
     window.sessionStorage.getItem("name");
     window.sessionStorage.getItem("lastName");
-    // if (window.sessionStorage.length === false) {
-    //     console.log("There is no data.")
-    // }
+    
+         console.log("There is no data.")
+     
 
 }
 toGetItem();
@@ -94,9 +94,11 @@ toRemove();
 
 
 // History
+function toHistory(){
 
-
-
+    window.history.back(2)
+}
+toHistory()
 
 
 
@@ -106,12 +108,94 @@ toRemove();
 
 
 function toMessage() {
-
+   // var win = window.open("https://www.google.com/")
     alert("Welcome to this page");
-    var users = prompt("Let say something!");
+    var question = prompt("Put the answer")
+    var input = confirm("we will submit this answer now ")
+    if(true){
+        alert("Success!")
+    }
+    
 
-    var input = confirm("we will submit this answer now");
 
-    console.log(users)
+    
 }
 toMessage()
+
+
+function date(){
+
+    alert("Now is very late!");
+}
+setTimeout(date, 3000)
+
+function time(){
+    console.log("night, night, night")
+}
+setInterval(time, 3000)
+
+
+
+
+
+
+
+
+// Global JavaScript Objects(homework)
+
+// Math.Random
+function toRandom(){
+
+    var arr = [];
+    
+    
+    for(var i = 1; i < 10; i++){
+        arr[arr.length] = Math.random() * 50
+    }
+    return arr
+}
+console.log(toRandom())
+
+// Math.Round 
+
+function toRound(){
+
+    var arr = [3.56, 6.7, 7.88, 4.45, 34.65];
+    var arr2 = new Array()
+    for(var i = 0; i < arr.length; i++){
+
+      arr2[arr2.length] = Math.round(arr[i])
+    }
+    return arr2
+}
+console.log(toRound());
+
+// Math Floor
+
+var toFloor = function(){
+
+    var arr = [-5.6, 0.34, 5.1, 6.43];
+    var newArr = new Array();
+    for(var i = 0; i < arr.length; i++){
+        newArr[newArr.length] = Math.floor(arr[i])
+    }
+    return newArr
+}
+console.log(toFloor())
+
+// Math.max
+
+function maximum(){
+
+    var arr = [-5.6, 0.34, 5.1, 6.43, 33, 100];
+    
+    for(var i = 0; i < arr.length; i++){
+        var max =  Math.max(arr[i])
+    }
+    return max
+    
+}
+console.log(maximum());
+
+
+
