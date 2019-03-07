@@ -1,0 +1,67 @@
+// function selectElements(arr, node) {
+
+//     // var getBody = document.querySelector("body")
+//     // var selected = document.createElement("select");
+//     // selected.innerHTML = "<option>prva opcija</option><option>druga opcija</option>";
+
+//     // getBody.appendChild(selected);
+
+
+//     // var getSelect = document.createElement("select");
+
+
+
+//     // var option1 = document.createElement("option");
+//     // var option2 = document.createElement("option");
+
+
+//     // var text1 = document.createTextNode("opcija 1");
+//     // var text2 = document.createTextNode("opcija 2");
+
+//     // document.querySelector("body").appendChild(getSelect)
+
+//     // option1.appendChild(text1)
+//     // option2.appendChild(text2)
+
+//     // getSelect.appendChild(option1);
+//     // getSelect.appendChild(option2);
+
+
+//     var getBody = document.querySelector("div");
+
+//     var getSelect = document.createElement("select");
+//     getBody.appendChild(getSelect)
+
+//     for (var i = 0; i < arr.length; i++) {
+
+//         var text1 = document.createTextNode("opcija 1");
+//         getSelect.appendChild(arr[i]);
+//         arr[i].appendChild(text1)
+//     }
+
+//     getBody.appendChild(getSelect)
+
+
+// }
+// selectElements(["option", "option"]);
+
+
+
+
+function validateForm() {
+
+
+    var getForm = document.querySelector("form").querySelectorAll("input");
+
+
+    console.log(getForm);
+    for (var i = 0; i < getForm.length; i++) {
+
+        if (getForm[i].hasAttribute("required") && !(getForm[i].value)) {
+            getForm[i].setAttribute("class", "red")
+
+        }
+    }
+
+}
+validateForm();
