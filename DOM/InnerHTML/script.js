@@ -1,50 +1,40 @@
-// function selectElements(arr, node) {
+function selectElements(arr, node) {
 
-//     // var getBody = document.querySelector("body")
-//     // var selected = document.createElement("select");
-//     // selected.innerHTML = "<option>prva opcija</option><option>druga opcija</option>";
+    // var getBody = document.querySelector("body")
+    // var selected = document.createElement("select");
+    // selected.innerHTML = "<option>prva opcija</option><option>druga opcija</option>";
 
-//     // getBody.appendChild(selected);
-
-
-//     // var getSelect = document.createElement("select");
+    // getBody.appendChild(selected);
 
 
-
-//     // var option1 = document.createElement("option");
-//     // var option2 = document.createElement("option");
+    // var getSelect = document.createElement("select");
 
 
-//     // var text1 = document.createTextNode("opcija 1");
-//     // var text2 = document.createTextNode("opcija 2");
 
-//     // document.querySelector("body").appendChild(getSelect)
-
-//     // option1.appendChild(text1)
-//     // option2.appendChild(text2)
-
-//     // getSelect.appendChild(option1);
-//     // getSelect.appendChild(option2);
+    // var option1 = document.createElement("option");
+    // var option2 = document.createElement("option");
 
 
-//     var getBody = document.querySelector("div");
+    // var text1 = document.createTextNode("opcija 1");
+    // var text2 = document.createTextNode("opcija 2");
 
-//     var getSelect = document.createElement("select");
-//     getBody.appendChild(getSelect)
+    // document.querySelector("body").appendChild(getSelect)
 
-//     for (var i = 0; i < arr.length; i++) {
+    // option1.appendChild(text1)
+    // option2.appendChild(text2)
 
-//         var text1 = document.createTextNode("opcija 1");
-//         getSelect.appendChild(arr[i]);
-//         arr[i].appendChild(text1)
-//     }
-
-//     getBody.appendChild(getSelect)
+    // getSelect.appendChild(option1);
+    // getSelect.appendChild(option2);
 
 
-// }
-// selectElements(["option", "option"]);
-
+for(var i = 0; i < arr.length; i++){
+    var elem = document.createElement(arr[i]);
+    node.appendChild(elem)
+    elem.textContent = "tekstovi"
+}
+}
+selectElements(["select"], document.querySelector("div"));
+selectElements(["option", "option", "option", "option"],document.querySelector("select"))
 
 
 
