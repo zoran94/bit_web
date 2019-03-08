@@ -1,0 +1,19 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-image: url("./images/field.png");
+    background-size: cover;
+    height: 100%;
+    position: relative;
+   
+}
+img {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
