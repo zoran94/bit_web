@@ -1,7 +1,11 @@
-.imgs{
-    width:100px;
-    height: 100px;
+div{
+    width:50%;
+    height: 100%;
+    
 }
-#lfc{
-    width: 300px;
+
+img {
+    height: 50%;
+    width: 50%;
 }
+

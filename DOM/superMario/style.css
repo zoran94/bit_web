@@ -1,0 +1,15 @@
+html {
+    height: 100%;;
+}
+body {
+    background-image: url("./Mario/bg.jpg");
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    animation-iteration-count: infinite;
+
+}
+img{
+    position: absolute;
+    top: 49%;
+    left: 40%;
+}

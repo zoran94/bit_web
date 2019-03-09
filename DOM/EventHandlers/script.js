@@ -9,4 +9,5 @@ buttonSelector.onclick = function () {
     getElem.textContent = getInput;
 
     selected.appendChild(getElem);
+    document.querySelector("input").value = "";
 };
