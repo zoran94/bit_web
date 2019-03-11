@@ -1,0 +1,44 @@
+
+html {
+    height: 100%;;
+}
+body {
+    background-image: url("./Mario/bg.jpg");
+    background-repeat: repeat-x;
+background-position:  0 0;
+background-size: 100% 100%;
+position: relative;
+    
+    height: 100%;
+   
+    margin: 0;
+
+}
+
+.top{
+    position: absolute;
+    top: 220px;
+}
+.toptwo{
+    position: absolute;
+    top: 380px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+
+.running{
+    visibility: hidden;
+    
+    
+}
+
+
+img{
+    position: absolute;
+    top: 360px;
+    left: 40%;
+    
+}
