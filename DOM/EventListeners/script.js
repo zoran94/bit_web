@@ -1,26 +1,33 @@
 
-var getFirst = document.querySelector("body");
+//var getFirst = $("body");
 
-var getImg = document.querySelector("img");
-var buttonRemove = document.querySelector("button");
-
-function movePlayer(event) {
-
-    var moveR = event.clientX;
-    var moveL = event.clientY;
-    getImg.style.left = moveR + "px";
-    getImg.style.top = moveL + "px";
-
-
-    console.log(moveR, moveL);
-
-}
-
-getFirst.addEventListener("click", movePlayer);
+//var getImg = $("img");
+// var buttonRemove = $("button");
 
 
 
 function remPlayer() {
-    var remove = getFirst.removeEventListener("click", movePlayer);
+    $("body").off("click", movePlayer);
 }
-buttonRemove.addEventListener("click", remPlayer);
+
+
+function movePlayer(event) {
+
+    var moveR = event.pageX;
+    var moveL = event.pageY;
+    $("img").css("left", moveR + "px");
+    $("img").css("top", moveL + "px");
+
+}
+
+$("body").on("click", movePlayer);
+
+$("button").on("click", remPlayer);
+
+
+
+// getFirst.addEventListener("click", movePlayer);
+
+
+//buttonRemove.addEventListener("click", remPlayer);
+
