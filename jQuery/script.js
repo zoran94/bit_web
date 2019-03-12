@@ -32,15 +32,26 @@ $(function () {
 
 $("div").prepend("<p>Amazing Galery</p>");
 
-//var images = $("<img src='http://pbs.twimg.com/profile_images/514780508392148993/dpNt8McB_400x400.jpeg'><img src='http://pbs.twimg.com/profile_images/514780508392148993/dpNt8McB_400x400.jpeg'><img src='http://pbs.twimg.com/profile_images/514780508392148993/dpNt8McB_400x400.jpeg'>")
-//images.appendTo("div");
+
 
 $("img").each(function (index, element) {
     $(element).attr("src", "http://pbs.twimg.com/profile_images/514780508392148993/dpNt8McB_400x400.jpeg");
-    var randomWith = Math.random() * 500 + "px";
-    var randomHeight = Math.random() * 500 + "px";
+    var randomWidth = Math.random() * 500;
+    var randomHeight = Math.random() * 500;
 
-    var width = $(element).css("width", randomWith);
-    var height = $(element).css("height", randomHeight);
+    var width = $(element).css("width", randomWidth + "px");
+    var height = $(element).css("height", randomHeight + "px");
+    console.log(element)
+    if (randomWidth < 200) {
+        $(element).css("border", "5px solid green")
+    } else {
+        return false;
+    }
 
-})
+
+
+
+
+});
+
+
