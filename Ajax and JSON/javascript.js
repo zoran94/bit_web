@@ -34,6 +34,34 @@
 
 
 
+//// with jQuery
+
+// $("button").on("click", function(e){
+//     e.preventDefault();
+
+//     $.ajax({
+//         url: "https://dog.ceo/api/breeds/image/random",
+//         data: $("button").serialize()
+//     }).done(function(data){
+//         $("img").attr("src", data.message);
+//     })
+
+
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // var image = document.querySelector("div");
@@ -66,5 +94,7 @@
 
 
 // button.addEventListener("click", addImages);
+
+
 
 

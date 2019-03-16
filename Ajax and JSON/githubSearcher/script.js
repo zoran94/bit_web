@@ -15,6 +15,7 @@ function searchUsers(e) {
 
         request.onload = function (e) {
             var obj = JSON.parse(request.responseText);
+            
 
             for (var i = 0; i < imgs.length; i++) {
                 var element = imgs[i];
