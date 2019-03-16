@@ -1,71 +1,58 @@
-var body = document.querySelector("body");
-var i = null;
 
-function move() {
-    i--;
-    body.style.backgroundPosition = i+"px";
-   
-} 
-body.onkeydown = function(){
-    window.setInterval(move, 10);
-};
+// var staying = document.querySelector(".stay");
+// var run = document.querySelector(".running");
 
+// var i = null;
+// var move = function(){
+//     var position = document.body.style.backgroundPositionX || 0;
+//     document.body.style.backgroundPositionX = parseInt(position) - 25 + "px";
+// };
+// var reverse = function(){
+//     var position = document.body.style.backgroundPositionX || 0;
+//     document.body.style.backgroundPositionX = parseInt(position) + 25 +"px"; 
+// };
 
-function stopMoving(event){
-    if(event.keyCode == "37"){
-        run.classList.add("invisible");
-        stay.classList.remove("invisible");
-        
-        body.onkeydown = function(){
-            window.clearInterval(move);
-            i = null;
-        };
-    }
-}
-
-
-body.addEventListener("keydown", stopMoving)
-
-// picture.setAttribute("src", "C:\Users\Zoran\Desktop\bit_web\DOM\superMario\Mario\mario_running.gif")
-//  picture.style.position = "overwflow: visible";
-
-
-// background-repeat: repeat-x;
-// background-position:  0 0;
-// background-size: 100% 100%;
-// position: relative;
-
-// animation: animate 2s linear infinite;
-// background-size: contain;
-// @keyframes animate {
-//     from{
-//         background-position:  0 0;
-//     } 
-//     to {
-//         background-position: 100% 0; 
+// function moving(e){
+//     if(i){
+//         return;
 //     }
+
+//     if(e.keyCode == "39"){
+//         run.classList.add("show");
+//         staying.classList.add("invisible");
+//         run.style.transform = "scaleY(1)";
+//         i = setInterval(move, 100);
+//     };
+//     if(e.keyCode == "37"){
+//         run.classList.remove("show");
+//         staying.classList.remove("invisible");
+//         run.style.transform = "scaleY(-1)";
+//         i = setInterval(reverse, 100)
+//     };
+
 // }
-///////////////
+//     function stop(e){
+//         if(e.keyCode == "39"){
+//             run.classList.remove("show");
+//             staying.classList.remove("invisible");
+//             run.style.transform = "scaleX(1)";
+//             clearInterval(i);
+//             i = null;
+//         };
+
+//         if(e.keyCode === "37"){
+//             run.classList.remove("show");
+//             staying.classList.remove("invisible");
+//             run.style.transform = "scaleX(1)";
+//             clearInterval(i);
+//             i = null;
+//         }
+//     }
 
 
-var body = document.querySelector("body");
 
-var stay = document.querySelector(".stay");
-var run = document.querySelector(".running")
-
-function toRun(){
-    stay.classList.add("invisible")
-        
-    run.removeAttribute("class");
-};
-
-body.addEventListener("keyup", toRun)
+// document.addEventListener("keydown", moving);
+// document.addEventListener("keyup", stop);
 
 
-function get(){
-    
- run.classList.add("top");
-   
-}
-body.addEventListener("click", get);
 
